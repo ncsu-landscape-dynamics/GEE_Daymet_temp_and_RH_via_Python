@@ -1,0 +1,6 @@
+name: geetoolsenv
+channels:
+  - conda-forge
+dependencies:
+  - earthengine-api
+  - pip
