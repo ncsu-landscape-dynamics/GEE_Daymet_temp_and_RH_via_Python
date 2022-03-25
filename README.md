@@ -8,6 +8,6 @@ To get GEETools, run
 
 after 
 
-`activate [conda environment]'
+`activate [conda environment]`
 
 There are several code chunks at end of Python script that were previously part of the code, but were removed. I left them at end in case they need to be recycled.
