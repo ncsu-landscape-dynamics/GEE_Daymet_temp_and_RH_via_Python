@@ -1,4 +1,3 @@
-# conda activate C:\Users\japolo\Documents\code\condas\gee_env
 import geetools
 #import folium
 import ee
@@ -24,7 +23,7 @@ daymetb = ee.ImageCollection("NASA/ORNL/DAYMET_V4").filterDate('2009-06-01', '20
 # Set up projection for reproject of Daymet
 proj = ee.Projection('EPSG:4326')
 
-# Wrong
+# Reproject function
 def imreproj(image):
     return image.reproject(crs='EPSG:4326', scale = 1000)
 
